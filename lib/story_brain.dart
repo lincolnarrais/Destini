@@ -6,32 +6,33 @@ class StoryBrain {
   List<Story> _storyData = [
     Story(
         storyTitle:
-            'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-        choice1: 'I\'ll hop in. Thanks for the help!',
-        choice2: 'Better ask him if he\'s a murderer first.'),
-    Story(
-        storyTitle: 'He nods slowly, unphased by the question.',
-        choice1: 'At least he\'s honest. I\'ll climb in.',
-        choice2: 'Wait, I know how to change a tire.'),
+            'O pneu do seu carro estourou numa estrada esquisita, no meio do nada, sem sinal de celular. Você decide que vai pegar uma carona. Um homem numa picape enferrujada, com um chapéu de caubói e um olhar frio para perto de você, abre a porta do lado do passageiro e pergunta: "Precisando de uma carona, jovem?".',
+        choice1: 'Vou entrar. Valeu pela ajuda!',
+        choice2: 'Melhor perguntar primeiro a ele se é um assassino...'),
     Story(
         storyTitle:
-            'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-        choice1: 'I love Elton John! Hand him the cassette tape.',
-        choice2: 'It\'s him or me! You take the knife and stab him.'),
+            'Ele balança a cabeça lentamente que sim, sem sequer se abalar pela pergunta.',
+        choice1: 'Pelo menos ele é honesto. Vou aceitar a carona.',
+        choice2: 'Eu... acho que sei trocar um pneu...'),
     Story(
         storyTitle:
-            'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
-        choice1: 'Restart',
+            'O carro começa a andar, e o estranho começa a falar sobre seu relacionamento com a mãe. Ele fica com mais e mais raiva a cada minuto. Ele pede pra você abrir o porta-luvas. Dentro do porta-lucas você encontra uma faca ensanguentada, dois dedos cortados, e uma fita cassete do Elton John. Ele estende a mão em direção ao porta-luvas.',
+        choice1: 'Eu amo Elton John! Pego a fita cassette e entrego a ele.',
+        choice2: 'É ele ou eu! Pego a faca e dou uma facada nele.'),
+    Story(
+        storyTitle:
+            'O quê?! Quanta irresponsabilidade! Você sabia que acidentes de trânsito são a segunda maior causa de morte acidental para a maioria das pessoas em idade adulta?',
+        choice1: 'Reiniciar',
         choice2: ''),
     Story(
         storyTitle:
-            'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
-        choice1: 'Restart',
+            'Enquanto o carro sai da estrada e capota em direção às rochas lá embaixo, você reflete sobre a decisão estapafúrdia de esfaquear uma pessoa enquanto ela dirige o carro com você dentro.',
+        choice1: 'Reiniciar',
         choice2: ''),
     Story(
         storyTitle:
-            'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
-        choice1: 'Restart',
+            'Você fica amigo do assassino enquanto cantarola "Can you feel the love tonight". Ele te deixa na cidade mais próxima. Antes de você ir ele pergunta se você conhece algum lugar bom pra se livrar de corpos. Você responde: "Já tentou o píer?".',
+        choice1: 'Reiniciar',
         choice2: '')
   ];
 
